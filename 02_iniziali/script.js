@@ -28,14 +28,25 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
     
     // dichiaro la mia funzione
     
-    function restituzione (array){
+    // function restituzione (array){
+    //     let iniziali = []
+    //     for(let i=0; i<array.length; i++){
+    //         iniziali.push(array[i][0]);
+    //     }
+    //     return iniziali
+    // }  
+    
+    
+    // // chiamo la mia funzione
+    // console.log(restituzione(names))
+
+    const restituzione = (array) => {
         let iniziali = []
         for(let i=0; i<array.length; i++){
             iniziali.push(array[i][0]);
         }
         return iniziali
-    }  
-    
-    
-    // chiamo la mia funzione
-    console.log(restituzione(names))
+    }
+
+        // chiamo la mia funzione
+        console.log(restituzione(names))
