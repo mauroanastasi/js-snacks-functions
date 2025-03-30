@@ -4,9 +4,18 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+function selected (nomi, primaLettera){
+    let oneLetter = []
+    for(let i=0; i<nomi.length;i++ ){
+        if(nomi[i][0].toLowerCase() === primaLettera.toLowerCase())
+            oneLetter.push(nomi[i])
+    }
+    return oneLetter
 
+}
 
 // Invoca la funzione qui e stampa il risultato in console
+console.log(selected (names,`l`))
 
 
 

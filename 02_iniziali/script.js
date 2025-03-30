@@ -50,3 +50,6 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
         // chiamo la mia funzione
         console.log(restituzione(names))
+
+
+// ricordati che puoi anche risolverla con charAt
