@@ -37,19 +37,30 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
     // }  
     
     
-    // // chiamo la mia funzione
-    // console.log(restituzione(names))
+    // // // chiamo la mia funzione
+    // // console.log(restituzione(names))
 
-    const restituzione = (array) => {
-        let iniziali = []
-        for(let i=0; i<array.length; i++){
-            iniziali.push(array[i][0]);
-        }
-        return iniziali
-    }
+    // const restituzione = (array) => {
+    //     let iniziali = []
+    //     for(let i=0; i<array.length; i++){
+    //         iniziali.push(array[i][0]);
+    //     }
+    //     return iniziali
+    // }
 
-        // chiamo la mia funzione
-        console.log(restituzione(names))
+    //     // chiamo la mia funzione
+    //     console.log(restituzione(names))
 
 
 // ricordati che puoi anche risolverla con charAt
+
+const newResult = (nomi) => {
+    let iniziali = [];
+    for(let i=0; i<nomi.length; i++){
+        iniziali.push(nomi[i][0]);
+    }
+    return iniziali
+}
+
+newResult (names);
+console.log(newResult(names));
